@@ -1,0 +1,20 @@
+.titleLogo {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    
+    .title {
+      font-size: 2rem;
+      line-height: 2rem;
+      margin-left: 1rem;
+    
+      span {
+        font-size: 0.75rem;
+        font-weight: bold;
+      }
+    }
+    
+    &.titleLogoLeft {
+      justify-content: flex-start;
+    }
+  } 

@@ -9,3 +9,47 @@ body {
   background-color: $dark;
   color: $white;
 }
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+  text-transform: capitalize;
+}
+textarea,
+input,
+button {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: $green;
+  outline: none;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex1 {
+  display: flex;
+}
+.text-center {
+  text-align: center;
+}
+.py {
+  padding: 80px 0;
+}
+
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
