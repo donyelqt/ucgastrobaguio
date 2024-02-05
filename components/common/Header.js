@@ -41,7 +41,7 @@ const Header = () => {
               Hospitals
             </Link>
             <Link href='/' className={activeLink ==="/healthblog" ? "activeLink" : "none"}>
-              HealthBlog
+              HealthBlogs
             </Link>
             <Link href='/' className={activeLink ==="/contact" ? "activeLink" : "none"}>
               Contact
