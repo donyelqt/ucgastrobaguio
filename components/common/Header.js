@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { TitleLogo } from './Title';
 import { useRouter } from 'next/router';
 import { AiOutlineClose } from 'react-icons/ai';
-import { RiMenu4Line, RiMenu5Fill, RiMenuFoldLine, RiMoneyEuroCircleLine } from 'react-icons/ri';
+import { RiMenuLine} from 'react-icons/ri';
 
 
 const Header = () => {
@@ -46,9 +46,9 @@ const Header = () => {
             <Link href='/' className={activeLink ==="/contact" ? "activeLink" : "none"}>
               Contact
             </Link>
-            <button className="button-primary">schedule a consultation</button>
+            <button  className="button-primary" style={{ borderRadius: 5, border: '2px solid white', cursor: 'pointer' }}>schedule a consultation</button>
           </nav>
-          <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose/> : <RiMenuFoldLine/> }</button>
+          <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={30} color="red" />  : <RiMenuLine size={30}/> }</button>
         </div>
        </header>
     </>
