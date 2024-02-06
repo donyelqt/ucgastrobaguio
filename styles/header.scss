@@ -13,6 +13,9 @@ header {
       }
     }
   }
+  .menucontrol{
+    display: none;
+  }
 }
 .activeLink {
   position: relative;
@@ -32,6 +35,9 @@ header {
   header {
     nav {
       display: none;
+    }
+    .menucontrol {
+      display: block;
     }
     .openMenu {
       position: absolute;
