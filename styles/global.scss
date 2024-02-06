@@ -6,24 +6,30 @@
   height: 90vh !important;
   overflow: hidden !important;
   position: relative;
+
   &::before {
     content: "";
     position: absolute;
     top: 0;
-    left: -40%;
-    width: 180%;
-    height: 200vh;
-    background-image: url("../assets/images/art-top-cropp.jpg");
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/images/ucblack.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     z-index: -1;
     overflow-x: hidden !important;
   }
+
+
+
+
   .hero-title {
-    font-size: $xll-3;
-    line-height: 115px;
+    font-size: $xll;
+    line-height: 95px;
     font-weight: 600;
     margin: $xl-6 0;
+    color: #c0c0c0;
   }
   .sub-heading {
     display: flex;

@@ -46,7 +46,7 @@ const Header = () => {
             <Link href='/' className={activeLink ==="/contact" ? "activeLink" : "none"}>
               Contact
             </Link>
-            <button  className="button-primary" style={{ borderRadius: 0, border: '2px solid white', cursor: 'pointer' }}>schedule your consultation</button>
+            <button  className="button-primary" style={{ borderRadius: 5, border: 'none', cursor: 'pointer' }}>schedule your consultation here!</button>
           </nav>
           <button className="menucontrol" onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={35} color="red" />  : <RiMenuLine size={35}/> }</button>
         </div>
