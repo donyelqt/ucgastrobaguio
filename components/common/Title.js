@@ -20,6 +20,9 @@ export const TitleSm = ({ title }) => {
     return <h1 className={`title-sm`}>{title}</h1>
   }
 
- export const Title = ({ title, className }) => {
+
+  export const Title = ({ title, className }) => {
     return <h1 className={`${className} title`}>{title}</h1>
   }
+
+

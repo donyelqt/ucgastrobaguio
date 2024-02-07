@@ -24,14 +24,16 @@
 .title {
   font-size: $xl-5;
   font-weight: 500;
-  font-family: 'Lucida Fax', cursive;
-  background: $green1;
+  background: $white;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
+
+
 .title-bg {
   font-size: 40px;
 }
