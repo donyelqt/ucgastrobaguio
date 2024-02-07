@@ -24,7 +24,8 @@
 .title {
   font-size: $xl-5;
   font-weight: 500;
-  background: $gradient2;
+  font-family: 'Lucida Fax', cursive;
+  background: $green1;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -39,7 +40,7 @@
   text-transform: capitalize;
   color: $dark;
   padding: 13px 40px;
-  background-color: $richblack;
+  background-color: $green1;
   font-size: $md;
   border-radius: 50px;
   box-shadow: $shadow-md;

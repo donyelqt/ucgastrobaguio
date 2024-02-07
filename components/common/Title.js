@@ -2,7 +2,7 @@ export const TitleLogo = ({ title, caption, className }) => {
     return (
       <h1 className={`${className} title-logo`}>
         <span>{caption}</span>
-        <img src="/UC_Official_Logo.png" alt={title} width="360" height="96"  />
+        <img src="/UC_Official_Logo.png" alt={title} width="350" height="100"  />
       </h1>
     );
   };
