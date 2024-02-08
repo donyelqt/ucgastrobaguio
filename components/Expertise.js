@@ -6,7 +6,7 @@ const Expertise = () => {
       <section className="expertise">
         <div className="container">
           <div className='heading-title'>
-            <Title title="THE FIRST ONLINE PLATFORM OF UC FOR THE HOSPITALS BASED IN BAGUIO CITY, PHILIPPINES." />
+            <Title title="HOSPITALS IN BAGUIO CITY. " />
             <p>ano ilalagay natin dito</p>
           </div>
         </div>
