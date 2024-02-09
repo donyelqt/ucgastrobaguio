@@ -20,9 +20,9 @@ const Header = () => {
        <header>
         <div className='container'>
           <div className='logo'>
-            <Link href='/'>
-            <TitleLogo   />
-            </Link>
+            <a href='https://uc-bcf.edu.ph/' target='_blank' rel='noopener noreferrer'>
+            <TitleLogo />
+            </a>
           </div>
           <nav className={open ? "openMenu":"closeMenu"} onClick={()=>setOpen(null)}>
             <Link href='/' className={activeLink ==="/" ? "activeLink" : "none"}>
