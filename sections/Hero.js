@@ -7,7 +7,7 @@ const Hero = () => {
       <section className="hero">
         <div className="container">
           <Logo />
-          <h1 className='hero-title'><span className="green1">UC GastroBaguio</span> is an online platform for hospitals based in Baguio City, Philippines. Primarily focused on gastroenteritis.</h1>
+          <h1 className='hero-title'><span className="green1">UC GastroBaguio</span> is an online platform for hospitals based in Baguio City, Philippines, mainly focused on gastroenteritis.</h1>
         </div>
       </section>
       <div className='hero-sec'>
