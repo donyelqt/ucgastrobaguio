@@ -31,7 +31,25 @@
     font-weight: 600;
     margin: $xl-4;
     color: #fff;
-    font-family: 'Lucida Fax Demi', serif; /* add this line */
+    font-family: 'Lucida Fax Demi', serif;
+  
+    @media (max-width: 768px) {
+      font-size: $xl-3;
+      line-height: 50px;
+      margin: $xl-3;
+    }
+  
+    @media (max-width: 480px) {
+      font-size: $xl-2;
+      line-height: 40px;
+      margin: $xl-2;
+    }
+  
+    @media (max-width: 320px) {
+      font-size: $xl-1;
+      line-height: 30px;
+      margin: $xl-1;
+    }
   }
   .sub-heading {
     display: flex;
