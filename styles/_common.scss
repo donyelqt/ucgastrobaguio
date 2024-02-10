@@ -51,7 +51,7 @@
   cursor: pointer;
 
   &:hover {
-    background-color: darken($green1, 10%);
+    box-shadow: 0 0 50px rgba(0, 255, 127, 0.5);
   }
 }
 .secondary-button {
