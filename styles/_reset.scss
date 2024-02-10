@@ -10,28 +10,8 @@ body {
   color: $white;
 }
 .container {
-  max-width: 99%;
+  max-width: max-content;
   margin: auto;
-
-  @media (max-width: 767px) {
-    max-width: 99%;
-  }
-
-  @media (min-width: 768px) and (max-width: 833px) {
-    max-width: 99%;
-  }
-
-  @media (min-width: 834px) {
-    max-width: 834px;
-  }
-
-  @media (min-width: 992px) {
-    max-width: 99%;
-  }
-
-  @media (min-width: 1200px) {
-    max-width: 99%;
-  }
 }
 
 a {
