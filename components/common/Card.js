@@ -15,7 +15,7 @@ export const Card = ({ data, caption, show, path }) => {
           </Link>
           {caption && (
             <Link href={`${path}/${data.id}`}>
-              {caption} <HiOutlineArrowRight className='link-icon' />
+              {caption} <HiOutlineArrowNarrowRight className='link-icon' />
             </Link>
           )}
           <div className='flex'>

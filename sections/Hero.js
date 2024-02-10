@@ -1,5 +1,6 @@
 import { Logo, TitleSm, Title } from '@/components/common/Title';
-import Expertise from '@/components/Expertise';  
+import Expertise from '@/components/Expertise'; 
+import Banner from '@/components/Banner'; 
 
 const Hero = () => {
   return (
@@ -19,6 +20,7 @@ const Hero = () => {
         </div>
       </div>
       <Expertise />
+      <Banner />
     </>
   );
 }

@@ -51,6 +51,7 @@
       margin: $xx-1;
     }
   }
+  
   .sub-heading {
     display: flex;
     justify-content: center;
@@ -88,12 +89,12 @@
 
 //banner
 .banner {
-  margin-top: $xll-3;
+  margin-top: $xll;
   .container {
-    border-radius: 50px 0 50px 0;
+    border-radius: 50px;
     padding: $xll;
     background: rgb(192, 90, 255);
-    background: $gradient;
+    background: $white;
     @include flex(center, space-between, none);
   }
 }

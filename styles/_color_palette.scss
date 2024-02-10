@@ -7,9 +7,10 @@ $richblack: #004040;
 $red: #FF0000;
 $Eerie: #1b1b1b;
 $lightGreen: #90EE90;
+$silver: #c0c0c0;
 $gradient: linear-gradient(203deg, rgba(192, 90, 255, 1) 0%, rgba(67, 39, 158, 1) 100%);
 $gradient2: linear-gradient(250deg, rgba(255, 85, 219, 1) 24%, rgba(52, 108, 255, 1) 100%);
-$gradient3: linear-gradient(250deg, rgba(0, 255, 0, 1) 0%, rgba(0, 255, 255, 1) 100%);
+$gradient3: linear-gradient(250deg,  rgba(0, 255, 255, 1) 0%, rgba(0, 255, 0, 1) 100%);
 
 .green {
   color: $green;
@@ -28,4 +29,8 @@ $gradient3: linear-gradient(250deg, rgba(0, 255, 0, 1) 0%, rgba(0, 255, 255, 1) 
 
 .green1 {
   color: $green1;
+}
+
+.dark {
+  color: $dark;
 }
