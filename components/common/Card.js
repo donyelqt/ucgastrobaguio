@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { TitleSm } from "./Title"
-import { HiOutlineArrowRight } from "react-icons/hi"
+import { HiOutlineArrowCircleRight, HiOutlineArrowNarrowRight, HiOutlineArrowRight } from "react-icons/hi"
 
 export const Card = ({ data, caption, show, path }) => {
   return (
