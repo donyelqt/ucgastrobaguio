@@ -9,7 +9,7 @@ export const TitleLogo = ({ title, caption, className }) => {
       <Image
         src="/UC_Official_Logo.png"
         alt={title}
-        width={350}
+        width={340}
         height={100}
         quality={100}
       />
