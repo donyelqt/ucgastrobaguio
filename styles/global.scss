@@ -34,21 +34,21 @@
     font-family: 'Lucida Fax Demi', serif;
   
     @media (max-width: 768px) {
-      font-size: $xl-3;
+      font-size: $xx-3;
       line-height: 50px;
-      margin: $xl-3;
+      margin: $xx-3;
     }
   
     @media (max-width: 480px) {
-      font-size: $xl-2;
-      line-height: 40px;
-      margin: $xl-2;
+      font-size: $xx-2;
+      line-height: 45px;
+      margin: $xx-2;
     }
   
     @media (max-width: 320px) {
-      font-size: $xl-1;
-      line-height: 30px;
-      margin: $xl-1;
+      font-size: $xx-1;
+      line-height: 40px;
+      margin: $xx-1;
     }
   }
   .sub-heading {
