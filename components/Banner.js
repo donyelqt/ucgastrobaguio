@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo, Title, TitleLogo } from './common/Title'
+import { Logo, Title, TitleLogo, Yesucan } from './common/Title'
 
 const Banner = () => {
   return (
@@ -9,6 +9,9 @@ const Banner = () => {
           <div className='title-container'>
             <Title />
             <TitleLogo />
+          </div>
+          <div className='text-container'>
+            <Yesucan />
           </div>
           <div className='text-container'>
             <Logo />
