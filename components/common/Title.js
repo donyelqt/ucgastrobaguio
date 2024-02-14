@@ -39,7 +39,7 @@ export const Citcs = ({ title, caption, className }) => {
       <Image
         src="/citcs.png"
         alt={title}
-        width={120}
+        width={150}
         height={150}
         quality={100}
       />
