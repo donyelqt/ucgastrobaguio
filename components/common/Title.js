@@ -32,6 +32,21 @@ export const Logo = ({ title, caption, className }) => {
   );
 };
 
+export const Citcs = ({ title, caption, className }) => {
+  return (
+    <h1 className={`${className} citcs`}>
+      <span>{caption}</span>
+      <Image
+        src="/citcs.png"
+        alt={title}
+        width={120}
+        height={150}
+        quality={100}
+      />
+    </h1>
+  );
+};
+
 export const Yesucan = ({ title, caption, className }) => {
   return (
     <h1 className={`${className} yesucan`}>
