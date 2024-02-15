@@ -69,8 +69,8 @@ export const Yesucan = ({ title, caption, className }) => {
       <Image
         src="/yesucan.png"
         alt={title}
-        width={250}
-        height={110}
+        width={300}
+        height={100}
         quality={100}
       />
     </h1>
