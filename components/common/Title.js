@@ -47,6 +47,21 @@ export const Citcs = ({ title, caption, className }) => {
   );
 };
 
+export const Innovation = ({ title, caption, className }) => {
+  return (
+    <h1 className={`${className} innovation`}>
+      <span>{caption}</span>
+      <Image
+        src="/ucinno.jpg"
+        alt={title}
+        width={150}
+        height={150}
+        quality={100}
+      />
+    </h1>
+  );
+};
+
 export const Yesucan = ({ title, caption, className }) => {
   return (
     <h1 className={`${className} yesucan`}>
