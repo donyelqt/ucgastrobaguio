@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { TitleSm } from "./Title"
 import { HiOutlineArrowCircleRight, HiOutlineArrowNarrowRight, HiOutlineArrowRight } from "react-icons/hi"
+import { RxOpenInNewWindow } from "react-icons/rx";
 
 export const Card = ({ data, caption, show, path }) => {
   return (
@@ -15,7 +16,7 @@ export const Card = ({ data, caption, show, path }) => {
           </Link>
           {caption && (
             <Link href={`${path}/${data.id}`}>
-              {caption} <HiOutlineArrowNarrowRight className='link-icon' />
+              {caption} <RxOpenInNewWindow className='link-icon' />
             </Link>
           )}
           <div className='flex'>
