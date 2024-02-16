@@ -52,7 +52,7 @@ export const Innovation = ({ title, caption, className }) => {
     <h1 className={`${className} innovation`}>
       <span>{caption}</span>
       <Image
-        src="/ucinno.jpg"
+        src="/ucinno-removebg-preview.png"
         alt={title}
         width={150}
         height={150}

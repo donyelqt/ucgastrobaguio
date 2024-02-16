@@ -94,8 +94,10 @@
   .container {
     border-radius: 10px;
     padding: $xll;
-    background: rgb(192, 90, 255);
-    background: $white;
+    background-image: url('../assets/images/ucbackground3.jpg');
+    background-size: cover; // ensures that the entire image is visible within the container
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality; // ensures highest possible image quality
     @include flex(center, space-between, none);
   }
 }
