@@ -19,7 +19,9 @@ const Testimonial = () => {
                   <div className='img'>
                     <img src={user.cover} alt='' />
                   </div>
-                  
+                  <div className='img-text'>
+                    <h3>{user.name}</h3>
+                  </div>
                 </div>
               </div>
              </div>

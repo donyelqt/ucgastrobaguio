@@ -1,7 +1,7 @@
 import { Logo, TitleSm, Title } from '@/components/common/Title';
 import Expertise from '@/components/Expertise'; 
 import Banner from '@/components/Banner'; 
-import Testimonial from '@/components/Testimonial'
+import Testimonial from '@/components/Testimonial';
 
 const Hero = () => {
   return (
