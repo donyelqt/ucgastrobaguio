@@ -126,13 +126,14 @@
           width: $xll-4;
           height: $xll-4;
           object-fit: cover;
-          border-radius: 40%;
+          border-radius: 50%;
         }
       }
       .img-text {
         margin-left: $xl-3;
         h3 {
           font-size: $xl-2;
+          font-family: Lucida Fax Demi;
           margin-bottom: $s;
         }
         span {
