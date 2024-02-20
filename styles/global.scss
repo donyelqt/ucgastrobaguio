@@ -108,6 +108,8 @@
     padding: 20px;
   }
   .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-top: $xll;
     p {
       margin-bottom: $xl-3;
@@ -118,13 +120,13 @@
       @include flex(center, none, none);
       margin-bottom: $xl-4;
       .img {
-        width: $xll-3;
-        height: $xll-3;
+        max-width: 100%;
+        height: auto;
         img {
-          width: 100%;
-          height: 100%;
+          width: $xll-4;
+          height: $xll-4;
           object-fit: cover;
-          border-radius: 20%;
+          border-radius: 40%;
         }
       }
       .img-text {
@@ -141,9 +143,13 @@
         }
       }
     }
+
+    // Add media queries here
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
   }
 }
-
 //showcase
 .showcase {
   .card-img {

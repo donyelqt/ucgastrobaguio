@@ -52,7 +52,7 @@ export const testimonial = [
     id: 1,
     name: "Jancer",
     cover: "./profile.png",
-    post: "Saint Louis University - Hospital of the Sacred Heart - Patients",
+    post: "Saint Louis University - Sacred Heart of the Hospitals (Patients)",
     desc: "The doctors were profesionals and good on taking care of the patients.",
   },
   {
