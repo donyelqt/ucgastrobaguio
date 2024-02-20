@@ -1,6 +1,8 @@
 import React from 'react'
 import { Logo, TitleSm, Title } from '@/components/common/Title';
 import { testimonial } from '@/assets/data/dummydata';
+import Link from 'next/link';
+import { RxOpenInNewWindow } from "react-icons/rx";
 
 const Testimonial = () => {
   return (
@@ -21,7 +23,14 @@ const Testimonial = () => {
                   </div>
                   <div className='img-text'>
                     <h3>{user.name}</h3>
+                    <span>{user.post}</span>
                   </div>
+                </div>
+                <div className='details'>
+                  <p>{user.desc}</p>
+                  <Link href="/#">
+                    VIEW HOSPITALS  <RxOpenInNewWindow  className='link-icon'/> 
+                  </Link>
                 </div>
               </div>
              </div>
