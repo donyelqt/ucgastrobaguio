@@ -21,10 +21,10 @@ const Hero = () => {
           </div>          
         </div>
       </div>
-      <Expertise />
       <Banner />
-      <Testimonial />
+      <Expertise />
       <ShowCase />
+      <Testimonial />
     </>
   );
 }
