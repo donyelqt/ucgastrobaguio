@@ -80,39 +80,27 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
-    cover: "",
-    catgeory: "DIGITAL MARKETING",
+    title: "Baguio General Hospital and Medical Center",
+    cover: "./bgh.jpg",
+    catgeory: "PUBLIC MEDICAL INSTITUTION.",
   },
   {
     id: 2,
-    title: "Futuristic Furniture",
-    catgeory: "WEBSITES",
-    cover: "",
+    title: "Saint Louis University - Hospital of the Sacred Heart",
+    catgeory: "PRIVATE MEDICAL INSTITUTION.",
+    cover: "./slu.jpg",
   },
   {
     id: 3,
-    title: "Smart Living",
-    cover: "",
-    catgeory: "WEBSITES",
+    title: "Notre Dame de Chartres Hospital",
+    cover: "./notre.jpg",
+    catgeory: "PRIVATE MEDICAL INSTITUTION.",
   },
   {
     id: 4,
-    title: "Light Painting",
-    cover: "",
-    catgeory: "BRANDING	",
-  },
-  {
-    id: 5,
-    title: "Ideabox",
-    cover: "",
-    catgeory: "BRANDING	",
-  },
-  {
-    id: 5,
-    title: "VR Experience",
-    cover: "",
-    catgeory: "WEBSITES	",
+    title: "Pines City Doctors Hospital",
+    cover: "./pines1.jpg",
+    catgeory: "PRIVATE MEDICAL INSTITUTION.",
   },
 ]
 export const brand = [

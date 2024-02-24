@@ -2,6 +2,7 @@ import { Logo, TitleSm, Title } from '@/components/common/Title';
 import Expertise from '@/components/Expertise'; 
 import Banner from '@/components/Banner'; 
 import Testimonial from '@/components/Testimonial';
+import ShowCase from '@/components/ShowCase';
 
 const Hero = () => {
   return (
@@ -23,6 +24,7 @@ const Hero = () => {
       <Expertise />
       <Banner />
       <Testimonial />
+      <ShowCase />
     </>
   );
 }
