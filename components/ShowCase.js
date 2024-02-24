@@ -22,7 +22,7 @@ const ShowCase = () => {
           </div>
           <div className='card links'>
             <Link href='/'>
-              VIEW ALL CASES <RxOpenInNewWindow className='link-icon' />
+              VIEW ALL HOSPITALS <RxOpenInNewWindow className='link-icon' />
             </Link>
           </div>
         </div>
