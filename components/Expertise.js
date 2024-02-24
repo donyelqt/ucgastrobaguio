@@ -11,7 +11,7 @@ const Expertise = () => {
             <Title title="WHAT ARE THE SERVICES PROVIDED BY THE HOSPITALS IN BAGUIO CITY?" />
             <p></p>
           </div>
-          <div className="hero-content grid-4">
+          <div className="hero-content grid-4 py">
             {expertise.map((item, i) => (
               <div className='box' key={i}>
                 <Card data={item} caption="Read more" />
