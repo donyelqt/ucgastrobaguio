@@ -21,7 +21,7 @@ export const home = [
     title: "Customer satisfaction is our top priority",
   },
 ]
-export const expertise = [
+export const services = [
   {
     id: 1,
     title: "Baguio General Hospital and Medical Center",
@@ -47,7 +47,7 @@ export const expertise = [
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
 ]
-export const testimonial = [
+export const reviews = [
   {
     id: 1,
     name: "JANCER",
@@ -77,7 +77,7 @@ export const testimonial = [
     desc: "",
   },
 ]
-export const showcase = [
+export const hospitals = [
   {
     id: 1,
     title: "Baguio General Hospital and Medical Center",

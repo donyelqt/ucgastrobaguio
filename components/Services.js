@@ -1,18 +1,18 @@
 import { Title } from '@/components/common/Title';
 import { Card } from '@/components/common/Card';
-import { expertise } from '@/assets/data/dummydata';
+import { services } from '@/assets/data/dummydata';
 
-const Expertise = () => {
+const Services = () => {
   return (
     <>
-      <section className="expertise">
+      <section className="services">
         <div className="container">
           <div className='heading-title'>
             <Title title="WHAT ARE THE SERVICES PROVIDED BY THE HOSPITALS IN BAGUIO CITY?" />
             <p></p>
           </div>
           <div className="hero-content grid-4 py">
-            {expertise.map((item, i) => (
+            {services.map((item, i) => (
               <div className='box' key={i}>
                 <Card data={item} caption="Read more" />
               </div>
@@ -24,7 +24,7 @@ const Expertise = () => {
   );
 }
 
-export default Expertise;
+export default Services;
 
 
 

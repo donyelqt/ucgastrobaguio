@@ -1,20 +1,20 @@
 import React from 'react'
 import { Logo, TitleSm, Title } from '@/components/common/Title';
-import { testimonial } from '@/assets/data/dummydata';
+import { reviews } from '@/assets/data/dummydata';
 import Link from 'next/link';
 import { RxOpenInNewWindow } from "react-icons/rx";
 
-const Testimonial = () => {
+const Reviews = () => {
   return (
     <>
-       <section className='testimonial'>
+       <section className='reviews'>
         <div className='container'>
           <div className='heading-title'>
             <Title title="PATIENTS REVIEW FOR THE HOSPITALS IN BAGUIO CITY." />
             <p><span className='white'></span></p>
           </div> 
           <div className='cards'>
-            {testimonial.map((user, i) => (
+            {reviews.map((user, i) => (
              <div key={i}>
               <div className='card'>
                 <div className='image'>
@@ -42,4 +42,4 @@ const Testimonial = () => {
   )
 }
 
-export default Testimonial
+export default Reviews;
