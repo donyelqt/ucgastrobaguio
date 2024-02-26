@@ -3,6 +3,7 @@ import Services from '@/components/Services';
 import Banner from '@/components/Banner'; 
 import Reviews from '@/components/Reviews';
 import Hospitals from '@/components/Hospitals';
+import BlogCard from '@/components/BlogCard'
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
       <section className="hero">
         <div className="container">
           <Logo />
-          <h1 className='hero-title'><span className="green1">UC GastroBaguio</span> is an online platform for hospitals based in Baguio City, Philippines, mainly focused on gastroenteritis.</h1>
+          <h1 className='hero-title'><span className="green1 glow2">UC GastroBaguio</span> <span className='glow3'> is an online platform for hospitals based in Baguio City, Philippines, mainly focused on gastroenteritis.</span></h1>
         </div>
       </section>
       <div className='hero-sec'>
@@ -24,11 +25,13 @@ const Hero = () => {
       <Banner />
       <Services />
       <Hospitals />
-      <Reviews />
+      
 
       <div className='text-center'>
         <Title  title='LATEST NEWS AND HEALTH TIPS.'/>
       </div>
+      <BlogCard />
+      <Reviews />
     </>
   );
 }

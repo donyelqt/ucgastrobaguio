@@ -47,7 +47,7 @@ export const services = [
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
 ]
-export const reviews = [
+export const reviews  = [
   {
     id: 1,
     name: "JANCER",
@@ -132,31 +132,31 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "Ligula vel urna accumsan placerat",
+    title: "n/a",
     cover: "",
-    catgeory: "INDUSTRY",
-    date: "JANUARY 12, 2023",
+    catgeory: "",
+    date: "",
   },
   {
     id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
+    title: "n/a",
     cover: "",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 20, 2023",
+    catgeory: "",
+    date: "",
   },
   {
     id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+    title: "n/a",
     cover: "",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 9, 2023",
+    catgeory: "",
+    date: "",
   },
   {
     id: 4,
-    title: "What eleifend posuere tincidunt",
+    title: "n/a",
     cover: "",
-    catgeory: "EVENTS",
-    date: "OCTOBER 8, 2023",
+    catgeory: "",
+    date: "",
   },
 ]
 export const teamdata = [

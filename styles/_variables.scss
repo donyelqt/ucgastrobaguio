@@ -57,3 +57,20 @@ h2 {
 .mr {
   margin-left: 50px;
 }
+
+.glow {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.glow1 {
+  text-shadow: 0 0 5px rgba(0, 255, 127, 0.7), 0 0 10px rgba(0, 255, 127, 0.5), 0 0 15px rgba(0, 255, 127, 0.3);
+}
+
+.glow2 {
+  text-shadow: 0 0 50px rgba(0, 255, 127, 0.5);
+}
+
+.glow3 {
+  text-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+}
+
