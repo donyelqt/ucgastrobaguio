@@ -20,7 +20,7 @@ const Footer = () => {
                 <button className="button-primary" style={{ borderRadius: 5, border: 'none', cursor: 'pointer' }}>get in touch.</button>
               </div>
               <ul>
-                <h3>UC GASTROBAGUIO</h3>
+                <h3><span className='green1'>UC GASTROBAGUIO</span></h3>
                 <li>
                   <Link href="/">About the UC GastroBaguio</Link>
                 </li>
@@ -44,7 +44,7 @@ const Footer = () => {
                 </li>
               </ul>
               <ul>
-                <h3>HOSPITAL SERVICES</h3>
+                <h3><span className='green1'>HOSPITAL SERVICES</span></h3>
                 <li>
                   <Link href="/">Baguio General Hospital and Medical Center</Link>
                 </li>
@@ -59,7 +59,7 @@ const Footer = () => {
                 </li>
               </ul>
               <ul>
-                <h3>FACEBOOK PAGES</h3>
+                <h3><span className='green1'>FACEBOOK PAGES</span></h3>
                 <div className='connect'>
                   <li>
                     <Link href="/">
@@ -83,6 +83,12 @@ const Footer = () => {
                   </li>
                 </div>
               </ul>
+            </div>
+            <div className='legal connect'>
+              <span className='green1'>© 2024 UC GASTROBAGUIO. ALL RIGHTS RESERVED.</span>
+            </div>
+            <div className='connect'>
+              <span>TERMS AND CONDITIONS.</span>
             </div>
           </div>
         </footer>
