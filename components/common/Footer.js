@@ -85,7 +85,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className='legal connect'>
-              <span className='green1'>© 2024 UC GASTROBAGUIO. ALL RIGHTS RESERVED.</span>
+              <span className='green1'>COPYRIGHT © 2024 UC GASTROBAGUIO. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
               <span>TERMS AND CONDITIONS.</span>
