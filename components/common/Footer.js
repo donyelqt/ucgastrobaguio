@@ -8,7 +8,7 @@ const Footer = () => {
     <>
         <footer>
           <div className='container'>
-            <div className='grid-4'>
+            <div className='grid-4 py'>
               <div className='logo'>
                 <Logo />
                 <br />
@@ -81,11 +81,12 @@ const Footer = () => {
                 </div>
               </ul>
             </div>
-            <div className='legal connect'>
+            <div className='legal connect py'>
               <span className='green1'>Copyright © 2024 UC GastroBaguio. All Rights Reserved.</span>
+              <span className='green1'>Terms and Conditions.</span>
             </div>
             <div className='connect'>
-              <span className='green1'>Terms and Conditions.</span>
+              
             </div>
           </div>
         </footer>
