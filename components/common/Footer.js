@@ -17,7 +17,7 @@ const Footer = () => {
                 <span>Monday - Friday from 10 am to 4 pm</span>
                 <br />
                 <br />
-                <button className="button-primary" style={{ borderRadius: 5, border: 'none', cursor: 'pointer' }}>get in touch.</button>
+                <button className="button-primary" style={{ borderRadius: 5, border: 'none', cursor: 'pointer' }}>get in touch with us.</button>
               </div>
               <ul>
                 <h3><span className='green1'>UC GASTROBAGUIO</span></h3>
@@ -35,12 +35,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link href="/">HealthBlogs</Link>
-                </li>
-                <li>
-                  <Link href="/">Contact</Link>
-                </li>
-                <li>
-                  <Link href="/"></Link>
                 </li>
               </ul>
               <ul>
