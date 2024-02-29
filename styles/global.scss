@@ -216,7 +216,7 @@ footer {
     margin-bottom: $xl-2;
     display: block;
     &:hover {
-      color: $green;
+      color: $green1;
     }
   }
   .connect {
@@ -233,7 +233,7 @@ footer {
     left: 0;
     width: 100% !important;
     height: 60vh;
-    background-color: $white;
+    background-color: $dark;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

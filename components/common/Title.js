@@ -77,7 +77,6 @@ export const Yesucan = ({ title, caption, className }) => {
   );
 };
 
-
 export const TitleSm = ({ title }) => {
   return <h1 className={`title-sm`}>{title}</h1>;
 };

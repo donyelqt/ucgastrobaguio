@@ -1,5 +1,7 @@
 import React from 'react'
-import { TitleLogo } from './Title';
+import { Logo, TitleLogo } from './Title';
+import Link from 'next/link';
+import { FaFacebookSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,8 +10,60 @@ const Footer = () => {
           <div className='container'>
             <div className='grid-4'>
               <div className='logo'>
-                <TitleLogo />
+                <Logo />
+                <br />
+                <span>Contact us with this schedule</span>
+                <br />
+                <span>Monday - Friday from 10 am to 4 pm</span>
+                <br />
+                <br />
+                <button className="button-primary" style={{ borderRadius: 5, border: 'none', cursor: 'pointer' }}>get in touch.</button>
               </div>
+              <ul>
+                <h3>UC GASTROBAGUIO</h3>
+                <li>
+                  <Link href="/">About the UC GastroBaguio</Link>
+                </li>
+                <li>
+                  <Link href="/">Meet Our Team!</Link>
+                </li>
+                <li>
+                  <Link href="/">Services</Link>
+                </li>
+                <li>
+                  <Link href="/">Hospitals</Link>
+                </li>
+                <li>
+                  <Link href="/">HealthBlogs</Link>
+                </li>
+                <li>
+                  <Link href="/">Contact</Link>
+                </li>
+                <li>
+                  <Link href="/"></Link>
+                </li>
+              </ul>
+              <ul>
+                <h3>HOSPITAL SERVICES</h3>
+                <li>
+                  <Link href="/">Baguio General Hospital and Medical Center</Link>
+                </li>
+                <li>
+                  <Link href="/">Saint Louis University - Hospital of the Sacred Heart</Link>
+                </li>
+                <li>
+                  <Link href="/">Notre Dame De Chartres Hospital</Link>
+                </li>
+                <li>
+                  <Link href="/">Pines City Doctors Hospital</Link>
+                </li>
+              </ul>
+              <ul>
+                <h3>FACEBOOK PAGE</h3>
+                <div className='connect'>
+                  <li><Link href="/"></Link></li>
+                </div>
+              </ul>
             </div>
           </div>
         </footer>
