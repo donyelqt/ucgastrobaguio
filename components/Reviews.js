@@ -7,7 +7,7 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 const Reviews = () => {
   return (
     <>
-       <section className='reviews'>
+       <section className='reviews py'>
         <div className='container'>
           <div className='heading-title'>
             <Title title="PATIENTS REVIEW FOR THE HOSPITALS IN BAGUIO CITY." />
