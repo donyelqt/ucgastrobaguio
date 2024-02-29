@@ -85,10 +85,10 @@ const Footer = () => {
               </ul>
             </div>
             <div className='legal connect'>
-              <span className='green1'>COPYRIGHT © 2024 UC GASTROBAGUIO. ALL RIGHTS RESERVED.</span>
+              <span className='green1'>Copyright © 2024 UC GastroBaguio. All Rights Reserved.</span>
             </div>
             <div className='connect'>
-              <span>TERMS AND CONDITIONS.</span>
+              <span className='green1'>Terms and Conditions.</span>
             </div>
           </div>
         </footer>
