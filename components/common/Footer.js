@@ -11,6 +11,7 @@ const Footer = () => {
             <div className='grid-4 py'>
               <div className='logo'>
                 <Logo />
+                <span className='green1'>Gov. Pack Rd, Baguio City, Philippines</span>
                 <br />
                 <span>Contact us with this schedule</span>
                 <br />
