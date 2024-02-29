@@ -83,10 +83,10 @@ const Footer = () => {
             </div>
             <div className='legal connect py'>
               <span className='green1'>Copyright © 2024 UC GastroBaguio. All Rights Reserved.</span>
-              <span className='green1'>Terms and Conditions.</span>
+              <span className='green1'></span>
             </div>
             <div className='connect'>
-              
+            <span className='green1'></span>
             </div>
           </div>
         </footer>
