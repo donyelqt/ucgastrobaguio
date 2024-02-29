@@ -122,6 +122,21 @@ export const Pines = ({ title, caption, className }) => {
   );
 };
 
+export const GoogleMaps = ({ title, caption, className }) => {
+  return (
+    <h1 className={`${className} googlemaps`}>
+      <span>{caption}</span>
+      <Image
+        src="/google-maps.png"
+        alt={title}
+        width={30}
+        height={30}
+        quality={100}
+      />
+    </h1>
+  );
+};
+
 export const Yesucan = ({ title, caption, className }) => {
   return (
     <h1 className={`${className} yesucan`}>

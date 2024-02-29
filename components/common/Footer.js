@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo, TitleLogo, Bghmc, Slu, Notre, Pines } from './Title';
+import { Logo, TitleLogo, Bghmc, Slu, Notre, Pines, GoogleMaps } from './Title';
 import Link from 'next/link';
 import { FaFacebookSquare } from "react-icons/fa";       
 
@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='grid-4 py'>
               <div className='logo'>
                 <Logo />
-                <span className='green1'>Gov. Pack Rd, Baguio City, Philippines</span>
+                <span className='green1 flex flex-col'><GoogleMaps />Gov. Pack Rd, Baguio City, Philippines</span>
                 <br />
                 <span>Contact us with this schedule</span>
                 <br />
