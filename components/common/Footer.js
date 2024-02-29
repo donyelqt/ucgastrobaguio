@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo, TitleLogo, Bghmc, Slu, Notre, Pines, GoogleMaps } from './Title';
+import { Logo, TitleLogo, Bghmc, Slu, Notre, Pines, GoogleMaps, Facebook, Hospital, GastroBaguio } from './Title';
 import Link from 'next/link';
 import { FaFacebookSquare } from "react-icons/fa";       
 
@@ -21,7 +21,7 @@ const Footer = () => {
                 <button className="button-primary" style={{ borderRadius: 5, border: 'none', cursor: 'pointer' }}>get in touch with us.</button>
               </div>
               <ul>
-                <h3><span className='green1'>UC GASTROBAGUIO</span></h3>
+                <h3><span className='green1 flex flex-col'>UC GASTROBAGUIO<GastroBaguio /></span></h3>
                 <li>
                   <Link href="/">About the UC GastroBaguio</Link>
                 </li>
@@ -42,7 +42,7 @@ const Footer = () => {
                 </li>
               </ul>
               <ul>
-                <h3><span className='green1'>HOSPITAL SERVICES</span></h3>
+                <h3><span className='green1 flex flex-col'>HOSPITAL SERVICES<Hospital /></span></h3>
                 <li>
                   <Link href="/">Baguio General Hospital and Medical Center</Link>
                 </li>
@@ -57,7 +57,7 @@ const Footer = () => {
                 </li>
               </ul>
               <ul>
-                <h3><span className='green1'>FACEBOOK PAGES</span></h3>
+                <h3><span className='green1 flex flex-col'>FACEBOOK PAGES<Facebook /></span></h3>
                 <div className='connect'>
                   <li>
                     <Link href="/">

@@ -137,6 +137,51 @@ export const GoogleMaps = ({ title, caption, className }) => {
   );
 };
 
+export const Facebook = ({ title, caption, className }) => {
+  return (
+    <h1 className={`${className} facebook`}>
+      <span>{caption}</span>
+      <Image
+        src="/facebook.png"
+        alt={title}
+        width={20}
+        height={20}
+        quality={100}
+      />
+    </h1>
+  );
+};
+
+export const GastroBaguio = ({ title, caption, className }) => {
+  return (
+    <h1 className={`${className} gastrobaguio`}>
+      <span>{caption}</span>
+      <Image
+        src="/uclogonew.png"
+        alt={title}
+        width={25}
+        height={25}
+        quality={100}
+      />
+    </h1>
+  );
+};
+
+export const Hospital = ({ title, caption, className }) => {
+  return (
+    <h1 className={`${className} hospital`}>
+      <span>{caption}</span>
+      <Image
+        src="/hospital.png"
+        alt={title}
+        width={20}
+        height={20}
+        quality={100}
+      />
+    </h1>
+  );
+};
+
 export const Yesucan = ({ title, caption, className }) => {
   return (
     <h1 className={`${className} yesucan`}>
