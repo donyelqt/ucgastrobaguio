@@ -36,6 +36,9 @@ const Footer = () => {
                 <li>
                   <Link href="/">HealthBlogs</Link>
                 </li>
+                <li>
+                  <Link href="/">Contact</Link>
+                </li>
               </ul>
               <ul>
                 <h3><span className='green1'>HOSPITAL SERVICES</span></h3>
