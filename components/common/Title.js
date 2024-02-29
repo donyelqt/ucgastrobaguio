@@ -62,6 +62,66 @@ export const Innovation = ({ title, caption, className }) => {
   );
 };
 
+export const Bghmc = ({ title, caption, className }) => {
+  return (
+    <h1 className={`${className} bghmc`}>
+      <span>{caption}</span>
+      <Image
+        src="/bghmc.png"
+        alt={title}
+        width={50}
+        height={50}
+        quality={100}
+      />
+    </h1>
+  );
+};
+
+export const Slu = ({ title, caption, className }) => {
+  return (
+    <h1 className={`${className} slu`}>
+      <span>{caption}</span>
+      <Image
+        src="/slusacred.png"
+        alt={title}
+        width={50}
+        height={50}
+        quality={100}
+      />
+    </h1>
+  );
+};
+
+export const Notre = ({ title, caption, className }) => {
+  return (
+    <h1 className={`${className} notre`}>
+      <span>{caption}</span>
+      <Image
+        src="/notre.png"
+        alt={title}
+        width={50}
+        height={50}
+        quality={100}
+      />
+    </h1>
+  );
+};
+
+export const Pines = ({ title, caption, className }) => {
+  return (
+    <h1 className={`${className} pines`}>
+      <span>{caption}</span>
+      <Image
+        src="/pines.jpg"
+        alt={title}
+        width={50}
+        height={50}
+        quality={100}
+      />
+    </h1>
+  );
+};
+
 export const Yesucan = ({ title, caption, className }) => {
   return (
     <h1 className={`${className} yesucan`}>

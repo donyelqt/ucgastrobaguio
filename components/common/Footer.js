@@ -1,7 +1,7 @@
 import React from 'react'
-import { Logo, TitleLogo } from './Title';
+import { Logo, TitleLogo, Bghmc, Slu, Notre, Pines } from './Title';
 import Link from 'next/link';
-import { FaFacebookSquare } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";       
 
 const Footer = () => {
   return (
@@ -59,9 +59,28 @@ const Footer = () => {
                 </li>
               </ul>
               <ul>
-                <h3>FACEBOOK PAGE</h3>
+                <h3>FACEBOOK PAGES</h3>
                 <div className='connect'>
-                  <li><Link href="/"></Link></li>
+                  <li>
+                    <Link href="/">
+                      <Bghmc />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/">
+                      <Slu />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/">
+                      <Notre />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/">
+                      <Pines />
+                    </Link>
+                  </li>
                 </div>
               </ul>
             </div>
