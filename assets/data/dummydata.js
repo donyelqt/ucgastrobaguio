@@ -132,31 +132,31 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "n/a",
-    cover: "",
+    title: "SAFE WATER DRINKING ORDINANCE",
+    cover: "./safewaterdrinkingordiance.jpg",
     catgeory: "",
-    date: "",
+    date: "BAGUIO CITY PUBLIC INFORMATION OFFICE / JANUARY 24, 2024",
   },
   {
     id: 2,
-    title: "n/a",
-    cover: "",
+    title: "9 practical tips to help ease the discomfort brought about by gastroenteritis.",
+    cover: "./9tipsforgastro.jpg",
     catgeory: "",
-    date: "",
+    date: "BAGUIO CITY GUIDE / JANUARY 10, 2024",
   },
   {
     id: 3,
-    title: "n/a",
-    cover: "",
+    title: "CITY HAS BEEN VERY TRUTHFUL AND TRANSPARENT ON DIARRHEA OUTBREAK.",
+    cover: "./gastrooutbreak.jpg",
     catgeory: "",
-    date: "",
+    date: "BAGUIO CITY PUBLIC INFORMATION OFFICE / JANUARY 17, 2024",
   },
   {
     id: 4,
-    title: "n/a",
-    cover: "",
+    title: "DIARRHEA CASES CLIMB TO 2,199",
+    cover: "./casesrise.jpg",
     catgeory: "",
-    date: "",
+    date: "BAGUIO CITY PUBLIC INFORMATION OFFICE / JANUARY 11, 2024",
   },
 ]
 export const teamdata = [
