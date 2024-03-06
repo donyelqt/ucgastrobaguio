@@ -46,7 +46,7 @@ const Header = () => {
             <Link href='/' className={activeLink ==="/contact" ? "activeLink" : "none"}>
               Contact
             </Link>
-            <button  className="button-primary" style={{ borderRadius: 5, border: 'none', cursor: 'pointer' }}>Schedule your consultation!</button>
+            <button  className="button-primary" style={{ borderRadius: 5, border: 'none', cursor: 'pointer' }} onClick={() => {window.open("https://ucgastrobaguio-consultation.vercel.app/", "_blank");}} >Schedule your consultation!</button>
           </nav>
           <button className="menucontrol" onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={35} color="red" />  : <RiMenuLine size={35}/> }</button>
         </div>
