@@ -23,7 +23,7 @@ const Banner = () => {
             <Innovation />
           </div>
           <div style={{ marginTop: 'auto', textAlign: 'center' }}>
-            <button className="button-primary" style={{ borderRadius: 5, border: 'none', cursor: 'pointer' }}>Schedule your consultation!</button>
+            <button className="button-primary" style={{ borderRadius: 5, border: 'none', cursor: 'pointer' }} onClick={() => {window.open("https://ucgastrobaguio-consultation.vercel.app/", "_blank");}} >Schedule your consultation!</button>
           </div>
         </div>
       </section>
