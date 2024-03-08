@@ -167,6 +167,21 @@ export const GastroBaguio = ({ title, caption, className }) => {
   );
 };
 
+export const GastroBaguio1 = ({ title, caption, className }) => {
+  return (
+    <h1 className={`${className} gastrobaguio1`}>
+      <span>{caption}</span>
+      <Image
+        src="/uclogonew.png"
+        alt={title}
+        width={65}
+        height={70}
+        quality={100}
+      />
+    </h1>
+  );
+};
+
 export const Hospital = ({ title, caption, className }) => {
   return (
     <h1 className={`${className} hospital`}>
@@ -197,8 +212,8 @@ export const Yesucan = ({ title, caption, className }) => {
   );
 };
 
-export const TitleSm = ({ title }) => {
-  return <h1 className={`title-sm`}>{title}</h1>;
+export const TitleSm = ({ title, className, fontFamily }) => {
+  return <h1 className={`title-sm ${className}`} style={{ fontFamily: fontFamily }}>{title}</h1>;
 };
 
 export const Title = ({ title, className }) => {

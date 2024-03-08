@@ -28,7 +28,7 @@ const Header = () => {
             <Link href='/' className={activeLink ==="/" ? "activeLink" : "none"}>
               Home
             </Link>
-            <Link href='/' className={activeLink ==="/about" ? "activeLink" : "none"}>
+            <Link href='/about' className={activeLink ==="/about" ? "activeLink" : "none"}>
               About
             </Link>
             <Link href='/' className={activeLink ==="/team" ? "activeLink" : "none"}>
