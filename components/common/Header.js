@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import { TitleLogo } from './Title';
+import { TitleLogo, Title } from './Title';
 import { useRouter } from 'next/router';
 import { AiOutlineClose } from 'react-icons/ai';
 import { RiMenuLine} from 'react-icons/ri';
