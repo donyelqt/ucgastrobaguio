@@ -174,8 +174,8 @@ export const GastroBaguio1 = ({ title, caption, className }) => {
       <Image
         src="/uclogonew.png"
         alt={title}
-        width={65}
-        height={70}
+        width={70}
+        height={75}
         quality={100}
       />
     </h1>

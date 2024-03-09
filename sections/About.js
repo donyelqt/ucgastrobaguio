@@ -21,7 +21,7 @@ const About = () => {
               <p className='desc-p'>It also allows hospitals to streamline their operations and improve efficiency in delivering healthcare services.</p>
               <div className='grid-2'>
                 <div className='box'>
-                  <h1 className='green1'>2000+</h1>
+                  <h1 className='green1'>2764+</h1>
                   <h3>Gastroenteritis Cases.</h3>
                 </div>
                 <div className='box'>
@@ -40,7 +40,7 @@ const About = () => {
               <img src='/uclogonew.png' alt='Img' className='round' width='100%' height='100%' />
             </div>
             <div className='right w-60 py'>
-              <TitleSm title='MISSION OF UC GASTROBAGUIO' className='text-primary' fontFamily='"Lucida Fax Demi", serif' />
+              <TitleSm title='MISSION OF UC GASTROBAGUIO.' className='text-primary' fontFamily='"Lucida Fax Demi", serif' />
               <p className='desc-p' style={{color: 'none'}}>UC GastroBaguio Healthcare Web App is dedicated to revolutionizing healthcare accessibility in Baguio City, with a primary focus on addressing gastroenteritis.</p>
               <p className='desc-p'>Our mission extends beyond this focus, aiming to create a versatile and user-friendly platform that provides comprehensive healthcare solutions for various illnesses, diseases, and overall health management.</p>
               <p className='desc-p'>Through cutting-edge technology and a commitment to proactive health practices, our goal is to empower individuals in Baguio City and beyond, fostering a healthier and more resilient community.</p>
