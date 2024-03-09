@@ -8,16 +8,16 @@ const About = () => {
             <div className='container'>
                 <div className='heading-title'>
                     <GastroBaguio1 />
-                    <TitleSm title='ABOUT THE UC GASTROBAGUIO.' className='text-primary' fontFamily='"Lucida Fax Demi", serif'/>
+                    <TitleSm title='' className='text-primary' fontFamily='"Lucida Fax Demi", serif'/>
                     <br />
                     <Title title='THE FIRST ONLINE PLATFORM OF UC FOR THE HOSPITALS BASED IN BAGUIO CITY, PHILIPPINES.' className='title-bg'/>
                 </div>
 
                 <div className='content flex1'>
             <div className='left w-60 py'>
-              <TitleSm title='' />
-              <p className='desc-p' style={{color: 'white'}}>This platform aims to provide convenient access to medical services and information for the residents of Baguio City. With this online platform, patients can schedule appointments, access their medical records, and even consult with doctors remotely. It also allows hospitals to streamline their operations and improve efficiency in delivering healthcare services.</p>
-              <div className='grid-3'>
+              <TitleSm title='ABOUT THE UC GASTROBAGUIO.' className='text-primary' fontFamily='"Lucida Fax Demi", serif'/>
+              <p className='desc-p' style={{color: 'none'}}>This platform aims to provide convenient access to medical services and information for the residents of Baguio City. With this online platform, patients can schedule appointments, access their medical records, and even consult with doctors remotely. It also allows hospitals to streamline their operations and improve efficiency in delivering healthcare services.</p>
+              <div className='grid-2'>
                 <div className='box'>
                   <h1 className='green1'>2000+</h1>
                   <h3>Gastroenteritis Cases.</h3>
@@ -35,12 +35,12 @@ const About = () => {
 
           <div className='content flex'>
             <div className='left w-40 py'>
-              <img src='/uclogonew.png' alt='Img' className='round' width='70%' height='75%' />
+              <img src='/uclogonew.png' alt='Img' className='round' width='100%' height='100%' />
             </div>
-            <div className='right w-60 ml'>
-              <TitleSm title='MISSION OF UC GASTROBAGUIO' className='text-primary green1' fontFamily='"Lucida Fax Demi", serif' />
+            <div className='right w-60 py'>
+              <TitleSm title='MISSION OF UC GASTROBAGUIO' className='text-primary' fontFamily='"Lucida Fax Demi", serif' />
               <br />
-              <p className='desc-p'></p>
+              <p className='desc-p' style={{color: 'none'}}>"UC GastroBaguio Healthcare Web App is dedicated to revolutionizing healthcare accessibility in Baguio City, with a primary focus on addressing gastroenteritis. Our mission extends beyond this focus, aiming to create a versatile and user-friendly platform that provides comprehensive healthcare solutions for various illnesses, diseases, and overall health management. Through cutting-edge technology and a commitment to proactive health practices, our goal is to empower individuals in Baguio City and beyond, fostering a healthier and more resilient community."</p>
             </div>
           </div>
         </div>

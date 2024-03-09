@@ -278,6 +278,29 @@ footer {
   }
 }
 
+@media (max-width: 768px) {
+   .content.flex1 {
+    flex-direction: column;
+  }
+   .content.flex1 .left,
+   .content.flex1 .right {
+    width: 100%;
+  }
+   .content.flex1 .right {
+    margin-left: 0;
+  }
+   .content.flex {
+    flex-direction: column;
+  }
+   .content.flex .left,
+   .content.flex .right {
+    width: 100%;
+  }
+   .content.flex .right {
+    margin-left: 0;
+  }
+}
+
 .hospitals {
   img {
     width: 300px;
