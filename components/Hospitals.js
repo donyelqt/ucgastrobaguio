@@ -15,7 +15,7 @@ const Hospitals = () => {
           <div className='heading-title'>
             <Title title='INFORMATION ABOUT THE HOSPITALS IN BAGUIO CITY.' />
           </div>
-          <div className='hero-content grid-2 py'>
+          <div className='hero-content grid-4 py items-center'>
             {hospitals.map((item) => (
               <Card data={item} key={item.id} />
             ))}
