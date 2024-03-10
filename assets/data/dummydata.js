@@ -179,3 +179,15 @@ export const teamdata = [
     post: "Business Analyst | Writer",
   },
 ]
+
+import {DonieleArysUcgastroCover} from '@/public/Doniele Arys Ucgastro.jpg';
+import Image from 'next/image';
+
+export const teamdata1 = [
+  {
+    id: 1,
+    title: "Doniele Arys Antonio",
+    cover: <Image src={DonieleArysUcgastroCover} width='100' height='100' />,
+    post: "Tech Lead | Software Engineer | Project Manager | UI/UX Designer",
+  },
+];

@@ -1,4 +1,4 @@
-import { teamdata } from "@/assets/data/dummydata"
+import { teamdata, teamdata1 } from "@/assets/data/dummydata"
 import { Card } from "@/components/common/Card"
 import { Title, TitleSm } from "@/components/common/Title"
 import team from "@/pages/team"
