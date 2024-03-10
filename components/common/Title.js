@@ -10,7 +10,7 @@ export const TitleLogo = ({ title, caption, className }) => {
         src="/UC_Official_Logo.png"
         alt={title}
         width={300}
-        height={100}
+        height={90}
         quality={100}
       />
     </h1>
@@ -174,8 +174,8 @@ export const GastroBaguio1 = ({ title, caption, className }) => {
       <Image
         src="/uclogonew.png"
         alt={title}
-        width={70}
-        height={75}
+        width={65}
+        height={70}
         quality={100}
       />
     </h1>

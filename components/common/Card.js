@@ -16,7 +16,7 @@ export const Card = ({ data, caption, show, path }) => {
           </Link>
           {caption && (
             <Link href={`${path}/${data.id}`}>
-              {caption} <RxOpenInNewWindow className='link-icon' />
+              {caption} 
             </Link>
           )}
           <div className='flex'>
