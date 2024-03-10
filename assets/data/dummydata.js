@@ -164,19 +164,19 @@ export const teamdata = [
     id: 1,
     title: "Doniele Arys Antonio",
     cover: "./Doniele Arys Ucgastro.jpg",
-    post: "Tech Lead | Software Engineer | Project Manager | UI/UX Designer",
+    post: "Tech Lead, Software Engineer, Project Manager, UI/UX Designer",
   },
   {
     id: 2,
     title: "Cedrick Bautista",
     cover: "Cedrick ucgastro.jpg",
-    post: "Data Analyst | Writer | Logo Designer",
+    post: "Data Analyst, Writer, Logo Designer",
   },
   {
     id: 3,
     title: "Ian Paloga",
     cover: "ian ucgastro.jpg",
-    post: "Business Analyst | Writer",
+    post: "Business Analyst, Writer",
   },
 ]
 
