@@ -14,7 +14,7 @@ const Team = () => {
               <GastroBaguio1 />
               <TitleSm title='Meet Our Passionate Team' className='text-primary' fontFamily='"Lucida Fax Demi", serif'/>
               <br />
-              <Title title='THE FIRST ONLINE PLATFORM OF UC FOR THE HOSPITALS BASED IN BAGUIO CITY, PHILIPPINES.' className='title-bg'/>
+              <Title title='MEET UC GASTROBAGUIO HEALTHCARE WEB APPS VISIONARIES: IGNITING REVOLUTIONARY HEALTH SOLUTIONS WITH PASSION AND EXPERTISE.' className='title-bg'/>
           </div>
           <div className='grid-3 py'>
             {teamdata.map((item) => (
