@@ -26,25 +26,25 @@ export const services = [
     id: 1,
     title: "Baguio General Hospital and Medical Center",
     cover: "./bghmc.png",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    desc: [{ text: "Medical Service" }, { text: "Cancer Center" }, { text: "Center for Diagnostic and Therapeutic Nuclear Medicine" }, { text: "Dental Department" }, { text: "Family and Community Medicine" }, { text: "HIV/AIDS Core Team (HACT)" }, { text: "Neuroscience" }, { text: "Obstetrics and Gynecology" }, { text: "Ophthalmology" }, { text: "Otorhinolaryngology- Head and Neck Surgery" }, { text: "Outpatient Department" }, { text: "Pathology" }, { text: "Psychiatry" }, { text: "Radiation Oncology" }, { text: "Radiology" }, { text: "Rehabilitation Medicine" }, { text: "Under Five Clinic" }, { text: "Women and Children Protection Unit" }, { text: "Cancer Center" }, { text: "Nursing Service" }, { text: "Professional and Allied Health Service Health Information Management Department" }, { text: "Medical Social Work Department" }, { text: "Nutrition & Dietetics" }, { text: "Pharmacy" },],
   },
   {
     id: 2,
     title: "Saint Louis University - Hospital of the Sacred Heart",
     cover: "./slusacred.png",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    desc: [{ text: "" }, { text: "" }, { text: "" }, { text: "" }],
   },
   {
     id: 3,
     title: "Notre Dame de Chartres Hospital",
     cover: "./notre.png",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    desc: [{ text: "" }, { text: "" }, { text: "" }, { text: "" }],
   },
   {
     id: 4,
     title: "Pines City Doctors Hospital",
     cover: "./pines.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    desc: [{ text: "Pathology" }, { text: "Medicine" }, { text: "General Surgery" }, { text: "OB-Gyne" }, { text: "Ambulance services" }, { text: "Hemodialysis" }, { text: "Anesthesia" }, { text: "Occupational Medicine" }, { text: "Rehabilitation Medicine" }, { text: "Dentistry" }, { text: "General Pediatrics" }, { text: "Radiology" }, ],
   },
 ]
 export const reviews  = [

@@ -3,6 +3,7 @@ import { Card } from "@/components/common/Card"
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
 import { services as services2 } from "@/assets/data/dummydata";
+import { GastroBaguio1} from "../components/common/Title"
 
 const Services = () => {
   return (
@@ -10,9 +11,10 @@ const Services = () => {
       <sections classname="agency bg-top">
         <div className='container'>
           <div className='heading-title'>
-              <TitleSm title='Services of the Hospitals in Baguio City' className='text-primary' fontFamily='"Lucida Fax Demi", serif'/>
+              <GastroBaguio1 />
+              <TitleSm title='Services' className='text-primary' fontFamily='"Lucida Fax Demi", serif'/>
               <br />
-            <Title title='' className='title-bg' />
+            <Title title='LIST OF HOSPITAL SERVICES IN BAGUIO CITY.' className='title-bg' />
           </div>
           <div className='grid-4 py'>
             {services2.map((item) => (
