@@ -25,8 +25,8 @@ const Hero = () => {
       <Banner />
       <Services />
       <Hospitals />
-      
 
+      
       <div className='text-center'>
         <Title  title='LATEST NEWS AND HEALTH TIPS.'/>
       </div>
