@@ -12,7 +12,7 @@ const Services = () => {
           <div className='heading-title'>
               <TitleSm title='Services of the Hospitals in Baguio City' className='text-primary' fontFamily='"Lucida Fax Demi", serif'/>
               <br />
-            <Title title='Unique technologies & modern approach' className='title-bg' />
+            <Title title='' className='title-bg' />
           </div>
           <div className='grid-4 py'>
             {services2.map((item) => (
