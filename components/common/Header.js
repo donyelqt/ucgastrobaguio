@@ -34,7 +34,7 @@ const Header = () => {
             <Link href='/team' className={activeLink ==="/team" ? "activeLink" : "none"}>
               Team
             </Link>
-            <Link href='/' className={activeLink ==="/services" ? "activeLink" : "none"}>
+            <Link href='/services' className={activeLink ==="/services" ? "activeLink" : "none"}>
               Services
             </Link>
             <Link href='/' className={activeLink ==="/hospitals" ? "activeLink" : "none"}>

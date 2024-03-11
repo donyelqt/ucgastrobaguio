@@ -85,7 +85,8 @@
 // services
 .services {
   .card-img {
-    height: 300px;
+    height: 275px;
+    width: fit-content;
   }
 }
 
@@ -156,7 +157,8 @@
 //hospitals
 .hospitals {
   .card-img {
-    height: 300px;
+    height: 275px;
+    width: fit-content
   }
   .links {
     @include flex(none, flex-end, none);
