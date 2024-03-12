@@ -32,13 +32,13 @@ export const services = [
     id: 2,
     title: "Saint Louis University - Hospital of the Sacred Heart",
     cover: "./slusacred.png",
-    desc: [{ text: "" }, { text: "" }, { text: "" }, { text: "" }],
+    desc: [{ text: "Anaesthesia" }, { text: "Medicine" }, { text: "OB & Gynecology" }, { text: "Otorhinolaryngology" }, { text: "Pathology and Laboratory Medicine" }, { text: "Pediatrics" }, { text: "Radiology" }, { text: "Surgery" },],
   },
   {
     id: 3,
     title: "Notre Dame de Chartres Hospital",
     cover: "./notre.png",
-    desc: [{ text: "" }, { text: "" }, { text: "" }, { text: "" }],
+    desc: [{ text: "Breast Center" }, { text: "Clinical Laboratory" }, { text: "Anatomical Pathology" }, { text: "Radiology" }, { text: "Imaging" }, { text: "Hemodialysis" }, { text: "Optical Coherence Tomography" }, { text: "Endoscopy" }, { text: "Non-Invasive Cardiovascular Unit" }, { text: "Invasive Cardiovascular Unit" }, { text: "Physical and Rehabilitation Medicine" }, { text: "Pulmonary Services" }, { text: "Hema-Oncology" }, { text: "Electroencephalography(EEG)" }, { text: "Brainstem Evoked Response Audiometry(BERA)" }, { text: "24-Hour Pharmacy" }, { text: "Ambulance Service" }, { text: "Pastoral Counseling" }, { text: "Medical Social Services" },],
   },
   {
     id: 4,
