@@ -114,7 +114,7 @@
     margin-top: $xll;
     p {
       margin-bottom: $xl-3;
-      font-size: $xl;
+      font-size: $md;
       line-height: $xl-5;
     }
     .image {
@@ -124,8 +124,8 @@
         max-width: 100%;
         height: auto;
         img {
-          width: $xll-4;
-          height: $xll-4;
+          width: $xll-3;
+          height: $xll-3;
           object-fit: cover;
           border-radius: 50%;
         }
@@ -133,7 +133,7 @@
       .img-text {
         margin-left: $xl-3;
         h3 {
-          font-size: $xl-2;
+          font-size: $xl-1;
           font-family: Lucida Fax Demi;
           margin-bottom: $s;
           color: $white;
@@ -141,7 +141,7 @@
         span {
           color: rgba($white, 0.5);
           text-transform: uppercase;
-          font-size: $sm;
+          font-size: $s;
           letter-spacing: 3px;
         }
       }

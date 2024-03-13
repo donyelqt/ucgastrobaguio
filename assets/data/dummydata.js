@@ -50,31 +50,31 @@ export const services = [
 export const reviews  = [
   {
     id: 1,
-    name: "JANCER",
+    name: "TERRY",
     cover: "./profile.png",
     post: "Saint Louis University - Sacred Heart of the Hospitals (Patients)",
-    desc: "The doctors were profesionals and good on taking care of the patients.",
+    desc: "At last, a modern hospital in Baguio City! No more dark, crowded hallways. This facility has clean rooms with modern hospital beds and a highly competent staff.",
   },
   {
     id: 2,
-    name: "N/A",
+    name: "SAMSON",
     cover: "./profile.png",
-    post: "",
-    desc: "",
+    post: "Baguio General Hospital and Medical Center (Patients)",
+    desc: "Staff and nursing are very accomodating, specially at Orthopedic Department doctors are so friendly. Nice place !",
   },
   {
     id: 3,
-    name: "N/A",
+    name: "ARLO",
     cover: "./profile.png",
-    post: "",
-    desc: "",
+    post: "Notre Dame de Chartres Hospital (Patients)",
+    desc: "I got sick and got confined in notre dame but assured   that i was cared for  by  good and caring doctors and nurses.",
   },
   {
     id: 4,
-    name: "N/A",
+    name: "SARAH",
     cover: "./profile.png",
-    post: "",
-    desc: "",
+    post: "Pines City Doctor's Hospital (Patients)",
+    desc: "I'm glad we chose Pines for my first delivery. All nurses, doctors, and other staff who have attended me even in the Emergency Room were very nice and approachable.",
   },
 ]
 export const hospitals = [
