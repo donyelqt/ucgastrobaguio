@@ -163,7 +163,7 @@ export const teamdata = [
   {
     id: 1,
     title: "Doniele Arys Antonio",
-    cover: "./Doniele Arys Ucgastro.jpg",
+    cover: "Doniele Arys Ucgastro.jpg",
     post: "Tech Lead, Software Engineer, Project Manager, UI/UX Designer",
   },
   {
