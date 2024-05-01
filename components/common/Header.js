@@ -37,13 +37,13 @@ const Header = () => {
             <Link href='/services' className={activeLink ==="/services" ? "activeLink" : "none"}>
               Services
             </Link>
-            <Link href='/' className={activeLink ==="/hospitals" ? "activeLink" : "none"}>
+            <Link href='/hospitals' className={activeLink ==="/hospitals" ? "activeLink" : "none"}>
               Hospitals
             </Link>
-            <Link href='/' className={activeLink ==="/healthblog" ? "activeLink" : "none"}>
+            <Link href='/healthblogs' className={activeLink ==="/healthblog" ? "activeLink" : "none"}>
               HealthBlogs
             </Link>
-            <Link href='/' className={activeLink ==="/contact" ? "activeLink" : "none"}>
+            <Link href='/contact' className={activeLink ==="/contact" ? "activeLink" : "none"}>
               Contact
             </Link>
             <button  className="button-primary" style={{ borderRadius: 5, border: 'none', cursor: 'pointer' }} onClick={() => {window.open("https://ucgastrobaguio-consultation.vercel.app/", "_blank");}} >Consultation</button>

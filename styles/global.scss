@@ -157,7 +157,7 @@
 .hospitals {
   .card-img {
     height: 275px;
-    width: fit-content
+    width: cover;
   }
   .links {
     @include flex(none, flex-end, none);

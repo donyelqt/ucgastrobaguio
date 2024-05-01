@@ -8,7 +8,7 @@ import { GastroBaguio1} from "../components/common/Title"
 const Services = () => {
   return (
     <>
-      <sections classname="agency bg-top">
+      <sections classname="services bg-top">
         <div className='container'>
           <div className='heading-title'>
               <GastroBaguio1 />
