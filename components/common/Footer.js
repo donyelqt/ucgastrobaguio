@@ -65,7 +65,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
+                    <Link href="https://www.facebook.com/share/zaztTCV1A8RX4i5G/?mibextid=LQQJ4d/" target="_blank" rel="noopener noreferrer">
                       <Slu />
                     </Link>
                   </li>
