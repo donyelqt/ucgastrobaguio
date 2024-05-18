@@ -170,7 +170,7 @@ export const teamdata = [
     id: 2,
     title: "Cedrick Bautista",
     cover: "Cedrick ucgastro.jpg",
-    post: "Data Analyst, Writer, Logo Designer",
+    post: "Analyst, Logo Designer",
   },
   {
     id: 3,
