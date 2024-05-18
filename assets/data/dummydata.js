@@ -176,7 +176,7 @@ export const teamdata = [
     id: 3,
     title: "Ian Paloga",
     cover: "ian ucgastro.jpg",
-    post: "Business Analyst, Writer",
+    post: "Analyst, Writer",
   },
 ]
 
