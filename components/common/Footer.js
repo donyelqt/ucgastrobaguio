@@ -70,7 +70,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.facebook.com/profile.php?id=100063608002884&mibextid=LQQJ4d/">
+                    <Link href="https://www.facebook.com/profile.php?id=100063608002884&mibextid=LQQJ4d/" target="_blank" rel="noopener noreferrer">
                       <Notre />
                     </Link>
                   </li>
