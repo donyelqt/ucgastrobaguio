@@ -83,7 +83,6 @@ export const hospitals = [
     title: "Baguio General Hospital and Medical Center",
     cover: "./bgh.jpg",
     catgeory: "PUBLIC MEDICAL INSTITUTION.",
-    link: "https://bghmc.doh.gov.ph/",
   },
   {
     id: 2,
