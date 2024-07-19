@@ -8,9 +8,13 @@ const BlogCard = () => {
     <div>
       <div className='container blog-card grid-2 py'>
         {blogdata.map((item) => (
-          <Link href={item.link} key={item.id}>
-            <Card data={item} path='blogs' />
-          </Link>
+          <div key={item.id}>
+            <Link href={item.link}>
+              <a>
+                <Card data={item} path='blogs' />
+              </a>
+            </Link>
+          </div>
         ))}
       </div>
     </div>
