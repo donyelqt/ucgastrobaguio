@@ -1,13 +1,16 @@
 import { blogdata } from '@/assets/data/dummydata'
 import React from 'react'
 import { Card } from './common/Card'
+import Link from 'next/link';
 
 const BlogCard = () => {
   return (
     <div>
         <div className='container blog-card grid-2 py'>
             {blogdata.map((item) => (
-              <Card data={item} key={item.id} path='blogs' />
+              <Link href={item.link} key={item.id}>
+                <Card data={item} path='blogs' />
+              </Link>
             ))}
         </div>
     </div>

@@ -136,29 +136,33 @@ export const blogdata = [
     id: 1,
     title: "SAFE WATER DRINKING ORDINANCE",
     cover: "./safewaterdrinkingordiance.jpg",
-    catgeory: "",
+    category: "",
     date: "BAGUIO CITY PUBLIC INFORMATION OFFICE / JANUARY 24, 2024",
+    link: "https://www.facebook.com/pio.baguio/posts/pfbid029q3QG2kiqJTcJfqHPPXGnbweyM3zXFSzDtnkMwjQnB1YZvo6158KbuK64WRvhm3vl" // add link here
   },
   {
     id: 2,
     title: "9 practical tips to help ease the discomfort brought about by gastroenteritis.",
     cover: "./9tipsforgastro.jpg",
-    catgeory: "",
+    category: "",
     date: "BAGUIO CITY GUIDE / JANUARY 10, 2024",
+    link: "/blog/9-practical-tips-gastroenteritis" // add link here
   },
   {
     id: 3,
     title: "CITY HAS BEEN VERY TRUTHFUL AND TRANSPARENT ON DIARRHEA OUTBREAK.",
     cover: "./gastrooutbreak.jpg",
-    catgeory: "",
+    category: "",
     date: "BAGUIO CITY PUBLIC INFORMATION OFFICE / JANUARY 17, 2024",
+    link: "/blog/city-truthful-diarrhea-outbreak" // add link here
   },
   {
     id: 4,
     title: "DIARRHEA CASES CLIMB TO 2,199",
     cover: "./casesrise.jpg",
-    catgeory: "",
+    category: "",
     date: "BAGUIO CITY PUBLIC INFORMATION OFFICE / JANUARY 11, 2024",
+    link: "/blog/diarrhea-cases-climb" // add link here
   },
 ]
 export const teamdata = [
