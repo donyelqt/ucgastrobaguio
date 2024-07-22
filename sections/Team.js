@@ -16,7 +16,7 @@ const Team = () => {
               <br />
               <Title title='A TEAM OF INNOVATIVE & PASSIONATE FROM UC BAGUIO.' className='title-bg'/>
           </div>
-          <div className='grid-3 py'>
+          <div className='container grid-3 py team'>
             {teamdata.map((item) => (
               <Card data={item} key={item.id} caption={item.post} />
             ))}
